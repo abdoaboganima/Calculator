@@ -14,6 +14,7 @@ namespace Calculator
         Double num1, num2, result;
         String myOperator = "";
         bool isOperationAdded = false;
+        
         public Form1()
         {
             InitializeComponent();
@@ -47,13 +48,16 @@ namespace Calculator
                 default:
                     break;
             }
+            
             userInput.Text = result.ToString();
             signChange.Enabled = true;
+            isOperationAdded = false;
         }
       
         private void CE_Click(object sender, EventArgs e)
         {
             userInput.Text = "0";
+            isOperationAdded = false;
         }
 
         private void DEL_Click(object sender, EventArgs e)
@@ -74,6 +78,7 @@ namespace Calculator
             myOperator = button.Text;
             isOperationAdded = true;
             signChange.Enabled = false;
+
         }
 
         private void num_Click(object sender, EventArgs e)
@@ -113,6 +118,7 @@ namespace Calculator
 
         private void SignChange_Click(object sender, EventArgs e)
         {
+            //Cange the sign of the first operand
             double num = double.Parse(userInput.Text);
             num = -num;
             userInput.Text = num.ToString();
@@ -120,8 +126,13 @@ namespace Calculator
 
         private void C_Click(object sender, EventArgs e)
         {
-          string[] results = userInput.Text.Split(new char[] {'+', '-', '*', '/'}, StringSplitOptions.RemoveEmptyEntries);
-          userInput.Text = results[0] + myOperator;
+            if (isOperationAdded)
+            {
+                string[] results = userInput.Text.Split(new char[] { '+', '-', '*', '/' }, StringSplitOptions.RemoveEmptyEntries);
+                userInput.Text = results[0] + myOperator;
+            }
+            else
+                userInput.Text = "0";
         }
 
 

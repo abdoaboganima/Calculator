@@ -5,3 +5,11 @@ c:\users\abdulrhman\documents\visual studio 2010\Projects\Calculator\Calculator\
 c:\users\abdulrhman\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
 c:\users\abdulrhman\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.exe
 c:\users\abdulrhman\documents\visual studio 2010\Projects\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\obj\x86\Debug\Calculator.exe
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\obj\x86\Debug\Calculator.pdb
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\bin\Debug\Calculator.exe
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\bin\Debug\Calculator.pdb
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\obj\x86\Debug\Calculator.csprojResolveAssemblyReference.cache
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\obj\x86\Debug\Calculator.Form1.resources
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\obj\x86\Debug\Calculator.Properties.Resources.resources
+Z:\763\ENGINEERING and SCIENCE\Software Engineering\Calculator\Calculator\obj\x86\Debug\Calculator.csproj.GenerateResource.Cache
